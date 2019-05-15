@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+:root {
+    color: #00303f;
+    font-size: 18px;
+    scroll-behavior: smooth;
+}
+
+header b i {
+    color: #00303f;
+}
+
+
+body {
+    max-width: 800px;
+    margin: auto;
+    background-color: #ffffcc;
+}
+
+table,
+th,
+td {
+    border: 2px solid #7a9d96;
+    border-radius: 10px;
+}
+
+table {
+    background-color: #dcae1d;
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+h1 span {
+    color: #00303f;
+    font-size: 45px;
+    font-weight: normal;
+}
+
+h1 {
+    color: #00303f;
+    font-family: 'Lobster', cursive;
+    font-size: 35px;
+    font-weight: normal;
+}
+
+nav ul {
+    display: flex;
+    padding: 0;
+    list-style: none;
+    justify-content: space-around;
+    border: 2px solid #7a9d96;
+    margin: 0;
+    background-color: #dcae1d;
+    height: 45px;
+    align-items: center;
+    border-radius: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #00303f;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+@media (min-width: 500px) {
+    nav ul {
+        flex: 1;
+    }
+}
+
+header .banner {
+    background-image: url(../img/sino.jpg);
+    border-radius: 10px;
+    min-height: 500px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+article img {
+    display: block;
+    width: 100%;
+    border-radius: 20px;
+
+}
+
+.banner img {
+    width: 160px;
+    height: 90px;
+    margin-right: auto;
+}
+
+.form-contact {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.middle {
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+}
+
+.letter {
+    font-size: 17px;
+    font-weight: bold;
+    font-style: oblique;
+    text-align: center;
+}
+
+input {
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+    margin: 10px;
+    flex-wrap: wrap;
+}
+
+textarea {
+    width: 300px;
+    height: 100px;
+    border-radius: 10px;
+    margin: 10px;
+    flex-wrap: wrap;
+}
+
+.button {
+    position: relative;
+    display: inline-block;
+    color: #777674;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: rgba(255, 255, 255, .5) 1px 1px, rgba(100, 100, 100, .3) 3px 7px 3px;
+    user-select: none;
+    padding: 1em 2em;
+    outline: none;
+    border-radius: 20px;
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, .0) 30%, rgba(255, 255, 255, .8), rgba(255, 255, 255, .0) 70%),
+    linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0) 20%, rgba(255, 255, 255, 0) 90%, rgba(255, 255, 255, .3)),
+    linear-gradient(to right, rgba(125, 125, 125, 1), rgba(255, 255, 255, .9) 45%, rgba(125, 125, 125, .5)),
+    linear-gradient(to right, rgba(125, 125, 125, 1), rgba(255, 255, 255, .9) 45%, rgba(125, 125, 125, .5)),
+    linear-gradient(to right, rgba(223, 190, 170, 1), rgba(255, 255, 255, .9) 45%, rgba(223, 190, 170, .5)),
+    linear-gradient(to right, rgba(223, 190, 170, 1), rgba(255, 255, 255, .9) 45%, rgba(223, 190, 170, .5));
+    background-repeat: no-repeat;
+    background-size: 200% 100%, auto, 100% 2px, 100% 2px, 100% 1px, 100% 1px;
+    background-position: 200% 0, 0 0, 0 0, 0 100%, 0 4px, 0 calc(100% - 4px);
+    box-shadow: rgba(0, 0, 0, .5) 3px 10px 10px -10px;
+    background-color: #cae4db;
+}
+
+.button:hover {
+    transition: .5s linear;
+    background-position: -200% 0, 0 0, 0 0, 0 100%, 0 4px, 0 calc(100% - 4px);
+}
+
+.button:active {
+    top: 1px;
+}
+
+.map img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+#comment {
+    font-size: 15px;
+}
+
+#top5 {
+    font-size: larger;
+}
+
+.down .socials {
+    float: right;
+}
